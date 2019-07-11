@@ -1,0 +1,20 @@
+// 导航样式
+@navColor: #3e86ce;
+
+// 配置样式
+@success: #13ce66;
+@warning: #f7ba2a;
+@danger: #ff4949;
+@primary: #50bfff;
+@info: #3e86ce;
+@default: #ffffff;
+
+// 箭头函数
+.arrow(@w: 10px, @c: #000, @dir: top) {
+	// 兼容行内和块
+	width: 0;
+	font-size: 0;
+	border: @w solid transparent;
+	// 设置特殊边
+	border-@{dir}-color: @c;
+}

@@ -1,0 +1,42 @@
+// 引入样式库
+@import url(@/style/base.less);
+
+.ickt-button {
+	padding: 8px 20px;
+	border-radius: 6px;
+	color: #fff;
+	display: inline-block;
+	border: 1px solid #fff;
+	background-color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	&.btn-block {
+		display: block;
+	}
+	&.btn-default {
+		color: #333;
+		background-color: @default;
+		border-color: #ccc;
+	}
+	&.btn-success {
+		background-color: @success;
+		border-color: @success;
+	}
+	&.btn-warning {
+		background-color: @warning;
+		border-color: @warning;
+	}
+	&.btn-danger {
+		background-color: @danger;
+		border-color: @danger;
+	}
+	&.btn-primary {
+		background-color: @primary;
+		border-color: @primary;
+	}
+	&.btn-info {
+		background-color: @info;
+		border-color: @info;
+	}
+}
